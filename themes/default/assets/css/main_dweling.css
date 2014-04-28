@@ -1,0 +1,472 @@
+body{
+	font-family: 'opensans';
+	color:#555;
+}
+ul{
+	list-style:none;	
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	font-family: 'sansbold';	
+}
+form{
+	margin:0;	
+}
+.clear{
+	clear:both;	
+}
+.clearfix:after{
+	content:"";
+	visibility:hidden;
+	display:block;
+	clear:both;	
+}
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#opensans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+	background:#424a59;
+	border-top:5px solid #47ccdf;	
+}
+header ul{
+	float: right;
+    height: 20px;
+    padding-top: 5px;
+}
+header ul li{
+	float:left;
+	margin-right:15px;	
+}
+header ul li.last{
+	margin-right:0;	
+}
+header ul li a{
+	text-indent:-9999px;
+	display:block;
+	background:	url("../images/social-sprite.png") no-repeat;
+	width:30px;
+	height:30px;
+}
+header ul li a.facebook{
+	background-position:0 1px;
+	transition:all 0.3s ease-in;
+}
+header ul li a.facebook:hover{
+	background-position:0 -39px;	
+}
+header ul li a.twitter{
+	background-position:0 -80px;
+	transition:all 0.3s ease-in;	
+}
+header ul li a.twitter:hover{
+	background-position:0 -122px;	
+}
+header ul li a.linkedin{
+	background-position:0 -165px;
+	transition:all 0.3s ease-in;	
+}
+header ul li a.linkedin:hover{
+	background-position:0 -207px;	
+}
+header ul li a.gplus{
+	background-position:0 -248px;
+	transition:all 0.3s ease-in;	
+}
+header ul li a.gplus:hover{
+	background-position:0 -289px;	
+}
+.logo_row{
+	padding:10px 0;	
+}
+.logo{
+	background:url(../images/logo.png) no-repeat;
+	width:170px;
+	height:68px;
+	text-indent:-9999px;
+	display:block;	
+}
+.login-wrap{
+	float:right;	
+}
+.login-wrap li{
+	float:left;
+	font-size:14px;
+	color:#111;
+	line-height:23px;	
+}
+.login-wrap a{
+	display:inline-block;
+	font-size:14px;
+	color:#111;
+}
+.login-wrap a:hover{
+	color:#4AC4D4;	
+}
+.login-wrap .login{
+	margin-right:5px;	
+}
+.login-wrap li a{
+	background:url(../images/login-sprite.png) no-repeat 0 3px;
+	padding-left:17px;
+}
+.login-wrap .login a:hover{
+	background-position:0 -21px;	
+}
+.login-wrap .signup{
+	line-height:26px;	
+}
+.login-wrap .signup a{
+	background-position:0 -44px;	
+}
+.login-wrap .signup a:hover{
+	background-position:0 -69px;	
+}
+.search-btn{
+	text-indent:-9999px;
+	background:url(../images/login-sprite.png) no-repeat 14px -98px #47ccdf;	
+}
+nav{
+	background:#47ccdf;	
+}
+.search-wrap input, .search-wrap a{
+	margin-bottom:0;	
+}
+.header_login, .nav-bar, .social_wrap{
+	padding:0;	
+}
+.header_login ul{
+	margin-bottom:10px;	
+}
+nav ul li{
+	float:left;	
+}
+nav ul li a{
+	color:#fff;
+	font-size:16px;
+	padding:10px 25px;
+	display:block;	
+}
+nav ul li a.active{
+	background:#424a59;	
+}
+nav ul li a:hover{
+	background:#424a59;
+	color:#fff;	
+}
+.content-wrap, .sidebar{
+	margin:15px 0;
+	padding:15px;
+}
+.content-part{
+	background:#fff;
+	margin-right:10px;	
+}
+.content-wrap{
+	background:#fff;
+	box-shadow:0 0 12px #ddd inset;	
+}
+.sidebar{
+	background:rgba(213,211,213,0.5);
+	margin-left:10px;
+}
+
+.advice-wrap label{
+	display:block;
+	font-size:20px;
+	background:url(../images/advice-icon.png) no-repeat;
+	height:21px;
+	padding-left:30px;	
+}
+.advice-wrap input[type="text"]{
+	float:left;	
+}
+.ask-btn{
+	padding-left:0;	
+}
+.ask-btn input[type="submit"]{
+	background:#47CCDF;
+	font-size:14px;
+}
+footer{
+	background:url(../images/footer_bg.jpg) repeat;	
+}
+footer p{
+	color:#ddd;
+	margin-top:10px;	
+}
+footer p a{
+	font-size:14px;
+	color:#ddd;	
+}
+.facebook-login{
+	margin-top:18%;	
+}
+
+.facebook-login span{
+	display:block;
+	font-size:14px;
+	margin-bottom:5px;	
+}
+.facebook_connect{
+	background:url(../images/fb_connect.png) no-repeat;
+	display:block;
+	text-indent:-9999px;
+	width:239px;
+	height:40px;	
+}
+.login-box{
+	border-left:1px solid #ccc;
+	padding-left:40px;	
+}
+.login-box small{
+	font-size:14px;
+	margin:5px;	
+}
+#cboxClose{
+	top:0;	
+}
+.blue-btn{
+	background: #5acedd;
+	background: -moz-linear-gradient(top,  #5acedd 0%, #37cadd 44%, #0dc5dd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5acedd), color-stop(44%,#37cadd), color-stop(100%,#0dc5dd));
+	background: -webkit-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: -o-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: -ms-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: linear-gradient(to bottom,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5acedd', endColorstr='#0dc5dd',GradientType=0 );
+	padding:4px 20px;
+	border:1px solid #00C5DB;
+	color:#fff;
+	box-shadow:0 1px 1px #000;
+	border-radius:4px;	
+}
+.blue-btn:hover{
+	background: #0dc5dd;
+background: -moz-linear-gradient(top,  #0dc5dd 0%, #37cadd 56%, #5acedd 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0dc5dd), color-stop(56%,#37cadd), color-stop(100%,#5acedd));
+background: -webkit-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: -o-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: -ms-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: linear-gradient(to bottom,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dc5dd', endColorstr='#5acedd',GradientType=0 );	
+}
+.rememberMe input[type="checkbox"]{
+	float:left;	
+}
+.rememberMe label{
+	left: 7px;
+    position: relative;
+    top: 4px;
+}
+
+main .post {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.row-fluid {
+    width: 100%;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:after {
+    clear: both;
+}
+.row-fluid [class*="span"] {
+    -moz-box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.5641%;
+    min-height: 30px;
+    width: 100%;
+}
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+.row-fluid .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 2.5641%;
+}
+.row-fluid .span12 {
+    width: 100%;
+}
+.row-fluid .span11 {
+    width: 91.453%;
+}
+.row-fluid .span10 {
+    width: 82.906%;
+}
+.row-fluid .span9 {
+    width: 74.359%;
+}
+.row-fluid .span8 {
+    width: 65.812%;
+}
+.row-fluid .span7 {
+    width: 57.265%;
+}
+.row-fluid .span6 {
+    width: 48.7179%;
+}
+.row-fluid .span5 {
+    width: 40.1709%;
+}
+.row-fluid .span4 {
+    width: 31.6239%;
+}
+.row-fluid .span3 {
+    width: 23.0769%;
+}
+.row-fluid .span2 {
+    width: 14.5299%;
+}
+.row-fluid .span1 {
+    width: 5.98291%;
+}
+.row-fluid .offset12 {
+    margin-left: 105.128%;
+}
+.row-fluid .offset12:first-child {
+    margin-left: 102.564%;
+}
+.row-fluid .offset11 {
+    margin-left: 96.5812%;
+}
+.row-fluid .offset11:first-child {
+    margin-left: 94.0171%;
+}
+.row-fluid .offset10 {
+    margin-left: 88.0342%;
+}
+.row-fluid .offset10:first-child {
+    margin-left: 85.4701%;
+}
+.row-fluid .offset9 {
+    margin-left: 79.4872%;
+}
+.row-fluid .offset9:first-child {
+    margin-left: 76.9231%;
+}
+.row-fluid .offset8 {
+    margin-left: 70.9402%;
+}
+.row-fluid .offset8:first-child {
+    margin-left: 68.3761%;
+}
+.row-fluid .offset7 {
+    margin-left: 62.3932%;
+}
+.row-fluid .offset7:first-child {
+    margin-left: 59.8291%;
+}
+.row-fluid .offset6 {
+    margin-left: 53.8462%;
+}
+.row-fluid .offset6:first-child {
+    margin-left: 51.2821%;
+}
+.row-fluid .offset5 {
+    margin-left: 45.2991%;
+}
+.row-fluid .offset5:first-child {
+    margin-left: 42.735%;
+}
+.row-fluid .offset4 {
+    margin-left: 36.7521%;
+}
+.row-fluid .offset4:first-child {
+    margin-left: 34.188%;
+}
+.row-fluid .offset3 {
+    margin-left: 28.2051%;
+}
+.row-fluid .offset3:first-child {
+    margin-left: 25.641%;
+}
+.row-fluid .offset2 {
+    margin-left: 19.6581%;
+}
+.row-fluid .offset2:first-child {
+    margin-left: 17.094%;
+}
+.row-fluid .offset1 {
+    margin-left: 11.1111%;
+}
+.row-fluid .offset1:first-child {
+    margin-left: 8.54701%;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+.controls-row [class*="span"] + [class*="span"] {
+    margin-left: 30px;
+}
+input.span12, textarea.span12, .uneditable-input.span12 {
+    width: 1156px;
+}
+input.span11, textarea.span11, .uneditable-input.span11 {
+    width: 1056px;
+}
+input.span10, textarea.span10, .uneditable-input.span10 {
+    width: 956px;
+}
+input.span9, textarea.span9, .uneditable-input.span9 {
+    width: 856px;
+}
+input.span8, textarea.span8, .uneditable-input.span8 {
+    width: 756px;
+}
+input.span7, textarea.span7, .uneditable-input.span7 {
+    width: 656px;
+}
+input.span6, textarea.span6, .uneditable-input.span6 {
+    width: 556px;
+}
+input.span5, textarea.span5, .uneditable-input.span5 {
+    width: 456px;
+}
+input.span4, textarea.span4, .uneditable-input.span4 {
+    width: 356px;
+}
+input.span3, textarea.span3, .uneditable-input.span3 {
+    width: 256px;
+}
+input.span2, textarea.span2, .uneditable-input.span2 {
+    width: 156px;
+}
+input.span1, textarea.span1, .uneditable-input.span1 {
+    width: 56px;
+}
+.thumbnails {
+    margin-left: -30px;
+}
+.thumbnails > li {
+    margin-left: 30px;
+}
+.row-fluid .thumbnails {
+    margin-left: 0;
+}
