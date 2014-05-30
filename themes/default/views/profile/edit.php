@@ -41,7 +41,7 @@
 							               'onComplete' => "js:function(id, fileName, response) {
 							               		if (response.success)
 							               		{
-							               			$('#new-attachment').before('<span class=\"thumb-container thumb-center\"><span class=\"thumb-inner\"><span class=\"thumb-img\"><img class=\"thumb\" href=\"/'+ response.filepath +'\" src=\"/'+ response.filepath +'\" style=\"left: 0px; top: 0px;\"></span><span class=\"thumb-strip\"></span><span class=\"thumb-icon\"></span></span></span>').after('<li id=\"new-attachment\" style=\"display:none;\">');
+							               			$('#new-attachment').before('<span class=\"thumb-container thumb-center\"><span class=\"thumb-inner\"><span class=\"thumb-img\"><img class=\"thumb\" href=\"../'+ response.filepath +'\" src=\"../'+ response.filepath +'\" style=\"left: 0px; top: 0px;\"></span><span class=\"thumb-strip\"></span><span class=\"thumb-icon\"></span></span></span>').after('<li id=\"new-attachment\" style=\"display:none;\">');
 							               			$('.thumb').thumbs();
 													$('.thumb').colorbox({rel:'thumb'});
 													$('#new-attachment-img').show().attr('id', 'thumb');
@@ -51,9 +51,13 @@
 								)); ?></h5>
 					   	<div style="clear:both;"></div>
 						<div class="image-holder ">
+							<?php
+							$baseUrl = "http://".$_SERVER['SERVER_NAME'].Yii::app()->baseUrl;
+							//echo $_SERVER['SERVER_NAME'];
+							?>
 							<?php foreach ($attachments as $attachment): ?>
 							    <div class="image-ctrl" id="<?php echo $attachment->key; ?>">
-    								<?php echo CHtml::image("/uploads/".$attachment->value, NULL, array('class'=> 'thumb', 'href' => "/uploads/".$attachment->value, 'title' => "/uploads/".$attachment->value)); ?>
+    								<?php echo CHtml::image($baseUrl."/uploads/".$attachment->value, NULL, array('class'=> 'thumb', 'href' => $baseUrl."/uploads/".$attachment->value, 'title' => $baseUrl."/uploads/".$attachment->value)); ?>
                                     <span class="delete-button icon icon-remove" id="<?php echo $attachment->key; ?>"></span>
                                      <span class="star-button icon icon-star-empty" id="<?php echo $attachment->key; ?>"></span>
                                 </div>
@@ -122,5 +126,55 @@
 	#cboxNext{left:none}
 	
 .sidebar {background:none}
+
+.bootstrap-widget-header {
+    background: none;
+    border: 0px solid #D5D5D5;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 70px;
+    position: relative;
+}
+.bootstrap-widget-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0px solid #D5D5D5;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+
+.photo-upload-wrap img {
+    height: 160px;
+    width: 160px;
+}
+
+.thumb-container {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #CCCCCC #AAAAAA #AAAAAA #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    height: 160px;
+    padding: 3px 3px 3px 3px;
+    width: 160px;
+}
+.thumb-center img, .thumb-strip, .thumb-icon {
+    position: none;
+}
+.star-button {
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    z-index: 10;
+}
+.delete-button {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    z-index: 10;
+}
 	
 </style>

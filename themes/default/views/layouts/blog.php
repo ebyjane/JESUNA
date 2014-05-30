@@ -1,5 +1,5 @@
 <?php $this->beginContent('//layouts/main'); ?>
-	<div class="span8">
+	<div class="span8 question-details">
 		<?php echo $content; ?>
 		<?php 
 						$comments = Comments::model()->findAllByAttributes(array('content_id' => $content->id));

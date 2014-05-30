@@ -89,17 +89,18 @@ $list = CHtml::listData($models,
 
 ?>
 			<?php if (!Yii::app()->user->isGuest): ?>
-				<div class="alert" id="warning" style="display:none">
-					<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<div class="alert" style="display:none">
+					<button type="button" class="close" >&times;</button>
 					<strong>Hey there!</strong> Before clicking Ask button, please type your question and select a category.
-				</div>			
+				</div>	
             <?php else: ?>
-				<div class="alert">
-					<button type="button" class="close" data-dismiss="alert">&times;</button>
-					<strong>Hey there!</strong> Before posting a question, you must <?php echo CHtml::link('login', $this->createUrl('./site/login/')); ?> or <?php echo CHtml::link('signup', $this->createUrl('./site/register/')); ?>
-				</div>
+			<div class="alert" style="display:none">
+								<button type="button" class="close">&times;</button>
+								<strong>Hey there!</strong> Before posting a question, you must <?php echo CHtml::link('login', $this->createUrl('./site/login/')); ?> or <?php echo CHtml::link('signup', $this->createUrl('./site/register/')); ?>
+			</div>
+
         	<?php endif; ?>
-<label class="advice-label">Ask for Advice!</label>
+<label class="advice-label">Tell your problem?</label>
 <textarea style="height:20px;width:60%" id="textbox"></textarea>        	
 					<?php echo CHtml::dropDownList('categories', $categories,
               $list,
@@ -127,7 +128,7 @@ $this->renderPartial('//content/_post', array('content' => $content)); ?>
     'contentSelector' => '#posts',
     /*'itemSelector' => '#posts div.post',*/
     'loadingText' => 'Loading...',
-    'donetext' => 'This is the end of dweling questions..',
+    'donetext' => 'This is the end of jesuna questions..',
     'pages' => $pages,
 )); ?>
 
@@ -143,7 +144,12 @@ $this->renderPartial('//content/_post', array('content' => $content)); ?>
             $("#submit-comment").css("background","#9eca80");
         });
     
+	$(".close").click(function(){
+		$(".alert").hide();	
+	});			
+    
     $("#submit-comment").click(function(e) {
+	$(".alert").toggle(500);
         e.preventDefault();
         if (($("textarea#textbox").val() == "")||($("#categories :selected").val() == "")){
 			$("div#warning").fadeIn();
@@ -162,7 +168,7 @@ $this->renderPartial('//content/_post', array('content' => $content)); ?>
         	}, 
         	function(data) { 
 			
-        		$("#textbox").text("");  
+        		$("textarea#textbox").val("");   
         		$("#content-container").prepend(data);
         		$("div#content-container").children(":first").fadeIn();
         		$("#close").click();

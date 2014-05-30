@@ -9,9 +9,9 @@
 							$userDetails = Users::model()->findByAttributes(array('id' => $id));
 							
 							if(count($image_data)>0){
-								echo CHtml::link(CHtml::image("/uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px;float:left',  'href' => "/uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
+								echo CHtml::link(CHtml::image("./uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px;float:left',  'href' => "./uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
 							}else{
-								echo CHtml::link(CHtml::image("/uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px;float:left',  'href' => "/uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
+								echo CHtml::link(CHtml::image("./uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px;float:left',  'href' => "./uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
 							}	
 	
 	?>

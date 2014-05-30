@@ -17,8 +17,9 @@
 
 // Disable Error Reporting
 
+
 error_reporting(0);
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 
 // This is the configuration file
 $config=dirname(__FILE__).'/protected/config/main.php';
@@ -30,8 +31,12 @@ if (file_exists('install.php') && !file_exists($config))
 	exit();
 }
 
+
+
 // Load the config file
 $config = require($config);
+
+
 
 // Determine if we should enable debugging and call stack if debug and trace are set in our config file.
 // By default this disabled
@@ -48,9 +53,14 @@ if (YII_DEBUG && YII_TRACE_LEVEL == 3)
 // Load the configuration file
 require((string)$config['params']['yiiPath']. (YII_DEBUG ? 'yii.php' : 'yiilite.php'));
 
+
+
 // Merge it with our default config file
 $config = CMap::mergeArray(require(dirname(__FILE__).'/protected/config/main.default.php'), $config);
 
+
 // Run the Yii application instance
 Yii::createWebApplication($config)->run();
+
+
 

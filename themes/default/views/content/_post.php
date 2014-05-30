@@ -23,9 +23,9 @@ $meta = Content::model()->parseMeta($content->metadata); ?>
 							$userDetails = Users::model()->findByAttributes(array('id' => $id));
 							//echo count($image_data);
 							if(count($image_data)>0){
-								echo CHtml::link(CHtml::image("/uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "/uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$content->author->id}/"));
+								echo CHtml::link(CHtml::image("./uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "./uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$content->author->id}/"));
 							}else{
-								echo CHtml::link(CHtml::image("/uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "/uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$content->author->id}/"));
+								echo CHtml::link(CHtml::image("./uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "./uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$content->author->id}/"));
 							}	
 	
 	?>
@@ -102,9 +102,9 @@ $meta = Content::model()->parseMeta($content->metadata); ?>
 							$userDetails = Users::model()->findByAttributes(array('id' => $id));
 							
 							if(count($image_data)>0){
-								echo CHtml::link(CHtml::image("/uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "/uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
+								echo CHtml::link(CHtml::image("./uploads/".$image_data->value, NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "./uploads/".$image_data->value, 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
 							}else{
-								echo CHtml::link(CHtml::image("/uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "/uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
+								echo CHtml::link(CHtml::image("./uploads/images.jpg", NULL, array('class'=> 'thumb', 'style' => 'width:30px',  'href' => "./uploads/images.jpg", 'title' => $userDetails->displayName)), $this->createUrl("/profile/{$id}/"));
 							}	
 	
 	?>

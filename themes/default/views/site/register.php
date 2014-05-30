@@ -46,7 +46,7 @@
 							<div class="password_strength_desc"></div>
 							<div class="clearfix"></div>
 						</div>
-						<div class="login-form-links">By clicking Register, you agree to godwelling <?php echo CHtml::link('terms', Yii::app()->createUrl('/site/terms'), array('class' => 'login-form-links','style' => 'text-decoration:underline')); ?> and <?php echo CHtml::link('privacy', Yii::app()->createUrl('/site/privacy'), array('class' => 'login-form-links','style' => 'text-decoration:underline')); ?><br/><br/></div>
+						<div class="login-form-links">By clicking Register, you agree to jesuna <?php echo CHtml::link('terms', Yii::app()->createUrl('/site/terms'), array('class' => 'login-form-links','style' => 'text-decoration:underline')); ?> and <?php echo CHtml::link('privacy', Yii::app()->createUrl('/site/privacy'), array('class' => 'login-form-links','style' => 'text-decoration:underline')); ?><br/><br/></div>
 					</div>
 					<div class="login-form-footer">
 						<?php echo CHtml::link('login', Yii::app()->createUrl('/login'), array('class' => 'login-form-links')); ?>
@@ -66,8 +66,8 @@
     	            <?php if (Yii::app()->user->isGuest): ?>
 	    	            <?php $config = Yii::app()->getModules(false); ?>
 	    	            <?php if (count(Cii::get($config, 'hybridauth', array())) >= 1): ?>
-	    	            <div class="clearfix" style="border-bottom: 1px solid #aaa; margin: 15px;"></div>
-							<span class="login-form-links">Or register with one of these social networks</span>
+	    	            <!--<div class="clearfix" style="border-bottom: 1px solid #aaa; margin: 15px;"></div>
+							<span class="login-form-links">Or register with one of these social networks</span>-->
 	    	        	<?php endif; ?>
 	    	        	<div class="clearfix"></div>
 	    	        	<div class="social-buttons">

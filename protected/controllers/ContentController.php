@@ -355,7 +355,7 @@ class ContentController extends CiiController
 	public function actionList()
 	{
 
-		$this->setPageTitle('All Content');
+		$this->setPageTitle('Jesuna - Queries');
 		$this->setLayout('default');
 		//$this->breadcrumbs = array('Blogroll');
 		

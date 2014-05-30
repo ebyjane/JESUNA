@@ -8,3 +8,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 #otherwise forward it ti index.php
 RewriteRule . index.php
+suPHP_ConfigPath /home/jesunaco/public_html
+<Files php.ini>
+order allow,deny
+deny from all
+</Files>

@@ -55,21 +55,13 @@ font-size:11px;
 	</head>
 	<body>
     <header>
-        <div class="row">
-            <div class="large-12 small-12 columns social_wrap">
-            	<ul>
-                	<li><a href="https://www.facebook.com/pages/Godwellingcom/241208609383565" class="facebook" title="Facebook">Facebook</a></li>
-                    <li><a href="https://twitter.com/GoDwellingWeb" class="twitter" title="Twitter">Twitter</a></li>
-                    <li><a href="http://www.linkedin.com/company/3592842?trk=tyah&trkInfo=tas%3Agodwe%2Cidx%3A1-1-1" class="linkedin" title="Linkedin">Linkedin</a></li>
-                    <li class="last"><a href="https://plus.google.com/u/1/b/111538487115466987695/111538487115466987695/posts" class="gplus" title="Googleplus">Googleplus</a></li>            
-                </ul>
-            </div>
-        </div>
+        <div class="row"></div>
+        
         <!-- ***** header row ends here ********** -->   
     </header>	
 <div class="container main-container"><div class="row-fluid main-body header-second"><div class="span8">
         	<a href="#" class="large-8 small-12 columns logo">
-            	Dweling
+            	Jesuna
             </a>
 			<div class="search-wrap">
                 	<form>
@@ -137,13 +129,7 @@ font-size:11px;
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Ask for Advice', 'url'=>Yii::app()->getBaseUrl(true),'linkOptions'=>$advice),
-				array('label'=>'Buy & Sell', 'url'=>array('/site/buy'),'linkOptions'=>$buy),
-				/*array('label'=>'Contact Us', 'url'=>array('/site/contact'),'linkOptions'=>$contact),
-				array('label'=>'Privacy Policy', 'url'=>array('/site/privacy'),'linkOptions'=>$privacy),
-				array('label'=>'Terms & Conditions', 'url'=>array('/site/terms'),'linkOptions'=>$terms),
-				array('label'=>'Events', 'url'=>array('/site/events'),'linkOptions'=>$events),
-				array('label'=>'About Us', 'url'=>array('/site/about'),'linkOptions'=>$about),
-				array('label'=>'Contact Us', 'url'=>array('/site/contact'),'linkOptions'=>$contact),*/
+				
 			),
 		)); ?>				
             </div>
@@ -194,7 +180,7 @@ font-size:11px;
             </div>
 		    <div class="footer-bottom-block">
 		        <div class="container">
-                        <div class="pull-left">Copyright &copy <?php echo date('Y'); ?> <?php echo Yii::app()->name; ?>, All rights reserved</div>
+                        <div class="pull-left">Copyright &copy JESUNA, All rights reserved</div>
                         <div class="pull-right cii-menu" ><?php echo CHtml::link('Contact',array('/site/contact')); ?> 
 						
 						<?php /*$this->widget('cii.widgets.CiiMenu', array('items' => $this->getCiiMenu(), 'htmlOptions' => array('class' => 'footer-nav','style'=>'width:100px;float:right')));*/ ?></div>

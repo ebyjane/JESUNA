@@ -13,7 +13,7 @@ $this->breadcrumbs=array(
             	<h1>Please fill in the form to contact us</h1>
             	<form action="" method="">
                 	<ul>
-                    	<li><label>Contact Godwelling</label>
+                    	<li><label>Contact Jesuna</label>
                         	<select>
                         		<option>Support Team</option>
                                 <option>Business Development</option>

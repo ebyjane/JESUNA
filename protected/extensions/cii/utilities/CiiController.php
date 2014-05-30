@@ -101,15 +101,15 @@ class CiiController extends CController
         $mail = new JPhpMailer;
         $mail->IsSMTP();
 		
-        $smtpHost    = Cii::getConfig('SMTPHost',    "mail.godwelling.com");
-        $smtpPort    = Cii::getConfig('SMTPPort',    "587");
-        $smtpUser    = Cii::getConfig('SMTPUser',    "godweiff@godwelling.com");
-        $smtpPass    = Cii::getConfig('SMTPPass',    "chethan");
+        $smtpHost    = Cii::getConfig('SMTPHost',    "mail.jesuna.com");
+        $smtpPort    = Cii::getConfig('SMTPPort',    "25");
+        $smtpUser    = Cii::getConfig('SMTPUser',    "info@jesuna.com");
+        $smtpPass    = Cii::getConfig('SMTPPass',    "12345");
 		//$mail->SMTPDebug = 1;		
 
         $notifyUser  = new stdClass;
-        $notifyUser->email       = Cii::getConfig('notifyEmail', "godweiff@godwelling.com");
-        $notifyUser->displayName = Cii::getConfig('notifyName',  "Dwelling");
+        $notifyUser->email       = Cii::getConfig('notifyEmail', "info@jesuna.com");
+        $notifyUser->displayName = Cii::getConfig('notifyName',  "Jesuna");
 
         if ($smtpHost !== NULL)
             $mail->Host       = $smtpHost; 

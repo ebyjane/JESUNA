@@ -1,6 +1,6 @@
 <div class="login-container">
 	<div class="sidebar">
-		<div class="well-span"><ul class="login-wrap clearfix" id="login-icon"><li class="login"><a class="iframe" href="#">&nbsp;</a></li></ul>
+		<div class="well-span">
 			<h4>Login to Your Account</h4>
 			<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 						'id'					=>	'login-form',
@@ -41,17 +41,17 @@
     	            <?php if (Yii::app()->user->isGuest): ?>
 	    	            <?php $config = Yii::app()->getModules(false); ?>
 	    	            <?php if (count(Cii::get($config, 'hybridauth', array())) >= 1): ?>
-	    	            <div class="clearfix" style="border-bottom: 1px solid #aaa; margin: 15px;"></div>
-							<span class="login-form-links">Or sign in with one of these social networks</span>
+	    	            <!--<div class="clearfix" style="border-bottom: 1px solid #aaa; margin: 15px;"></div>
+							<span class="login-form-links">Or sign in with one of these social networks</span>-->
 	    	        	<?php endif; ?>
 	    	        	<div class="clearfix"></div>
-	    	        	<div class="social-buttons">
-		    	            <?php foreach (Cii::get(Cii::get($config, 'hybridauth', array()), 'providers', array()) as $k=>$v): ?>
+	    	        	<!--<div class="social-buttons">-->
+		    	            <?php /*?><?php foreach (Cii::get(Cii::get($config, 'hybridauth', array()), 'providers', array()) as $k=>$v): ?>
 								<?php if (Cii::get($v, 'enabled', false) == 1): ?>
 									<?php echo CHtml::link(NULL, $this->createUrl('/hybridauth/'.$k), array('class' => 'social-icons ' . strtolower($k))); ?>
 								<?php endif; ?>
-		    	        	<?php endforeach; ?>
-		    	        </div>
+		    	        	<?php endforeach; ?><?php */?>
+		    	        <!--</div>-->
 		    	    <?php endif; ?>
 				</div>
 			<?php $this->endWidget(); ?>

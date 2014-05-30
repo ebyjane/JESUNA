@@ -1,0 +1,122 @@
+[18-May-2014 07:19:55 UTC] PHP Warning:  require(/home/jesunaco/public_html/protected/config/../runtime/yii/framework/yii.php): failed to open stream: No such file or directory in /home/jesunaco/public_html/index-test.php on line 11
+[18-May-2014 07:19:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/jesunaco/public_html/protected/config/../runtime/yii/framework/yii.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jesunaco/public_html/index-test.php on line 11
+[29-May-2014 13:42:04 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:42:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:44:01 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:44:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:46:15 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:46:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:47:21 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:47:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jesunaco/public_html/sandy.php on line 2
+[29-May-2014 13:48:38 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/sandy.php on line 20
+[29-May-2014 13:48:38 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:48:38 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:48:38 UTC] PHP Fatal error:  Class 'Net_SMTP' not found in /usr/local/lib/php/Mail/smtp.php on line 349
+[29-May-2014 13:51:44 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/mail.php on line 16
+[29-May-2014 13:51:44 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:51:44 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:51:44 UTC] PHP Fatal error:  Class 'Net_SMTP' not found in /usr/local/lib/php/Mail/smtp.php on line 349
+[29-May-2014 13:52:05 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/mail.php on line 16
+[29-May-2014 13:52:05 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:52:05 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:52:05 UTC] PHP Fatal error:  Class 'Net_SMTP' not found in /usr/local/lib/php/Mail/smtp.php on line 349
+[29-May-2014 13:57:23 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/test.php on line 16
+[29-May-2014 13:57:23 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:57:23 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/local/lib/php/Mail/smtp.php on line 348
+[29-May-2014 13:57:23 UTC] PHP Fatal error:  Class 'Net_SMTP' not found in /usr/local/lib/php/Mail/smtp.php on line 349
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/test.php on line 16
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 365
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 448
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 465
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 472
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 515
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 519
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 376
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 597
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 600
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 603
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 515
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 519
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 621
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 802
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 806
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 814
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 818
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 822
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 827
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 649
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 249
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 285
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 945
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 948
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method Mail_RFC822::parseAddressList() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 253
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 975
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 978
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1054
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1057
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1117
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1127
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1132
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 489
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 492
+[29-May-2014 14:07:13 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 495
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/jesunaco/public_html/test.php on line 16
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 365
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 448
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 465
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 472
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 515
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 519
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 376
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 597
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 600
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 603
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 515
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 519
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 621
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 802
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 806
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 814
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 818
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 822
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 827
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 649
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 249
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail/smtp.php on line 285
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 945
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 948
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method Mail_RFC822::parseAddressList() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 253
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 975
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 978
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1054
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1057
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1117
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1127
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:28 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 1132
+[29-May-2014 14:10:29 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 489
+[29-May-2014 14:10:29 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 263
+[29-May-2014 14:10:29 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 492
+[29-May-2014 14:10:29 UTC] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Net/SMTP.php on line 495
